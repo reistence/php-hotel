@@ -89,8 +89,8 @@ $category = [];
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>PhP Hotels</title>
 </head>
-<body>
-<main class="container-fluid">
+<body class="bg-dark text-white" >
+<main class="container-fluid ">
 
     <h1>PhP Hotels</h1>
     <section >
@@ -100,13 +100,13 @@ $category = [];
             <input type="checkbox" name="parking" id="parking">
             <label for="hotel-vote">Vote:</label>
             <input type="text" placeholder="Insert vote" name="hotel-vote" id="hotel-vote">
-            <button type="submit">Filter</button>
+            <button class="bg-danger text-white rounded" type="submit">Filter</button>
             <br> <br>
         </form>
     </section>
 
     <section class="container">
-        <table class="table">
+        <table class="table table-dark table-hover">
             <thead>
                 <tr>
                 <?php 
