@@ -121,8 +121,7 @@ $category = [];
                     foreach($hotel as $single_key => $hotel_feature ){
                         if(!$parking && !$hotel_vote){
                              echo    '<td>' . $hotel_feature .'</td>'; 
-                        }
-
+                        };
                         if ($parking && $hotel["parking"] && !$hotel_vote) {
                             echo    '<td>' . $hotel_feature .'</td>'; 
                         };
